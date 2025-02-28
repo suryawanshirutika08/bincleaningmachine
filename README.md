@@ -1,35 +1,12 @@
-# Primer
+# Welcome to your CDK JavaScript project
 
-Primer is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+This is a blank project for CDK development with JavaScript.
 
-## Getting started
+The `cdk.json` file tells the CDK Toolkit how to execute your app. The build step is not required when using JavaScript.
 
-To get started with this template, first install the npm dependencies:
+## Useful commands
 
-```bash
-npm install
-```
-
-Next, run the development server:
-
-```bash
-npm run dev
-```
-
-Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
-
-## Customizing
-
-You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
-
-## License
-
-This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
-
-## Learn more
-
-To learn more about the technologies used in this site template, see the following resources:
-
-- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
-- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
-- [Headless UI](https://headlessui.dev) - the official Headless UI documentation
+* `npm run test`         perform the jest unit tests
+* `npx cdk deploy`       deploy this stack to your default AWS account/region
+* `npx cdk diff`         compare deployed stack with current state
+* `npx cdk synth`        emits the synthesized CloudFormation template
